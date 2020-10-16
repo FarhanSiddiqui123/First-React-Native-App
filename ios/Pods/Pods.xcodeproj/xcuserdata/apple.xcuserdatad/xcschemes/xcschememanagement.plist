@@ -74,22 +74,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-first_react_app-first_react_appTests.xcscheme</key>
+		<key>Pods-react_learn-react_learnTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-first_react_app-tvOS.xcscheme</key>
+		<key>Pods-react_learn-tvOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-first_react_app-tvOSTests.xcscheme</key>
+		<key>Pods-react_learn-tvOSTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-first_react_app.xcscheme</key>
+		<key>Pods-react_learn.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

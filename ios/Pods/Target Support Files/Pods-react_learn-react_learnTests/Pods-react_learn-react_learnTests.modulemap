@@ -1,0 +1,6 @@
+module Pods_react_learn_react_learnTests {
+  umbrella header "Pods-react_learn-react_learnTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
