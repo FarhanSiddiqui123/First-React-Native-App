@@ -1,4 +1,4 @@
-#Wed Oct 14 11:24:54 PKT 2020
-base.0=/Users/apple/Desktop/OBTECH/first_react_app/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Fri Oct 16 12:21:58 PKT 2020
+base.0=/Users/apple/Desktop/OBTECH/react_learn/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
