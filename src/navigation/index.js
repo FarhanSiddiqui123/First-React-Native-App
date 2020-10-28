@@ -1,9 +1,9 @@
 import { createSwitchNavigator,createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 import { createBottomTabNavigator } from "react-navigation-tabs";
-import login from "../pages/login";
-import home from "../pages/home";
-import profile from '../pages/profile';
+import login from "../pages/auth/login";
+import home from "../pages/Home";
+import profile from '../pages/Profile';
 
 const loginStack = createStackNavigator({
     Login: login,
@@ -35,47 +35,5 @@ const loginStack = createStackNavigator({
   });
   
 
-  export var AppContainer = createAppContainer(MainTab);
+  export var AppContainer = createAppContainer(SwitNav);
 
-/*
-export const HomeStack= StackNavigator({
-    Home:{
-        screen: Home, 
-        navigationOption:{
-           title:'Home',
-        },
-    },
-})
-export const ProfileStack= StackNavigator({
-Profile:{
-    screen: Profile, 
-    navigationOption:{
-       title:'Profile',
-    },
-},
-})
-
-
-export const Tabs =tabNavigator({
-  
-  
-    Home:{
-        
-        screen: Home,
-        navigationOption:{
-            tabBar:{
-                    label:'Home',
-            }
-        },
-    },
-    Profile:{
-        screen: Profile,
-        navigationOption:{
-            tabBar:{
-                    label:'Profile',
-            }
-        },
-
-    },
-});
-*/

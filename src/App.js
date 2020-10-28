@@ -7,9 +7,12 @@
  */
 import React, { Component } from 'react';
 import {AppContainer} from './navigation/index';
+import SplashScreen from 'react-native-splash-screen';
 
-import Login from './pages/login';
 export default class App extends Component{
+  componentDidMount(){
+    SplashScreen.hide();
+  }
   render(){
     return  <AppContainer />
             
