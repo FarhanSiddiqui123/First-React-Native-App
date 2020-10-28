@@ -1,39 +1,54 @@
 //import { styles } from "../../styles/styles";
 
 import React,{Component} from 'react';
-import Button from "../../styles/button";
-import {Text,View,StyleSheet,TouchableOpacity} from "react-native";
-export default class Login extends Component{
-   
+import styles from "../../styles/auth-style";
+import {Keyboard, KeyboardAvoidingView, SafeAreaView, Text, TextInput,TouchableOpacity, TouchableWithoutFeedback,View} from "react-native";
+
+
+export default class Login extends Component {
+     
 myFunction(){
   this.props.navigation.navigate('app')
 }
-  
- render(){ 
-   return (
-<View style={styles.container}>
-  
-<Text style={styles.title}>Welcome..</Text>
-<Button text='Login Here' color='#009688' onPress={()=>this.myFunction()}/>
+  render() {
+      return (
+          <SafeAreaView style={styles.container}>
+              <KeyboardAvoidingView behavior='padding' style={styles.container}>
+                  <TouchableWithoutFeedback style={styles.container} onPress={Keyboard.dismiss}>
+                      <View style={styles.container}>
+                          <View style={styles.container}>
+                              <Text style={styles.title}>
+                                  LOGIN INFO
+                              </Text>
+                              <View style={styles.infoContainer}>
+                                  <TextInput style={styles.input}
+                                      placeholder='Username/Email'
+                                      placeholderTextColor='rgba(255,255,255,0.8)'
+                                      keyboardType='email-address'
+                                      returnKeyType='next'
+                                      autoCorrect={false}
+                                      onSubmitEditing={()=>this.refs.txtPassword.focus()}
+                                  />
+                                  <TextInput style={styles.input}
+                                      placeholder='Password'
+                                      placeholderTextColor='rgba(255,255,255,0.8)'
+                                      returnKeyType='go'
+                                      autoCorrect={false}
+                                      secureTextEntry
+                                      ref={"txtPassword"}
+                                  />
+                                  <TouchableOpacity style={styles.buttonContainer} onPress={()=>this.myFunction()} >
+                                      <Text style={styles.buttonText}>
+                                          LOGIN
+                                      </Text>
+                                      </TouchableOpacity>
+                              </View>
+                          </View>
+                      </View>
+                  </TouchableWithoutFeedback>
+              </KeyboardAvoidingView>
 
-</View>
-    
-  );
-}
-
-}
-    /////// NOT A GOOD PRACTICE BUT JUST FOR TEST CASE ///// 
-const styles=StyleSheet.create({
-  container:{
-    flex:1,
-    justifyContent:'center',
-    alignItems:'center',
-    backgroundColor:'#fff'
-  },
-  title:{
-    fontSize:38,
-    fontWeight: "bold",
-    textAlign:'center',
-    color:'black'
+          </SafeAreaView>
+      )
   }
-})
+}
