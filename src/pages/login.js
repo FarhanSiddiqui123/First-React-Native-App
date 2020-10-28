@@ -6,7 +6,7 @@ import {Text,View,StyleSheet,TouchableOpacity} from "react-native";
 export default class Login extends Component{
    
 myFunction(){
-
+  this.props.navigation.navigate('app')
 }
   
  render(){ 

@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/apple/Desktop/OBTECH/react_learn/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/apple/Desktop/OBTECH/First-React-Native-App/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/37aaca75d3d19faa6fb296103cea95d8/fragment-1.2.1/res/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,9",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,112,176,346",
-                        "endLines": "2,3,8,12",
-                        "endColumns": "56,63,24,24",
-                        "endOffsets": "107,171,341,490"
-                    },
-                    "to": {
-                        "startLines": "573,615,5868,5873",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "37179,39238,376940,377110",
-                        "endLines": "573,615,5872,5876",
-                        "endColumns": "56,63,24,24",
-                        "endOffsets": "37231,39297,377105,377254"
-                    }
-                },
-                {
-                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/4284b98e9ac23b4ab40f2d683df7a1a6/jetified-react-native-0.63.3/res/values/values.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/332f52eb9966acbf5c17d2cbf074d479/jetified-react-native-0.63.3/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,73,77,80,83,86,89,93,97,100,103,106,109,110,111,120,127,134,137,140,143,149",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -42,20 +23,22 @@
                     }
                 },
                 {
-                    "source": "/Users/apple/Desktop/OBTECH/react_learn/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/37aaca75d3d19faa6fb296103cea95d8/fragment-1.2.1/res/values/values.xml",
                     "from": {
-                        "startLines": "6,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "157,221",
-                        "endColumns": "63,68",
-                        "endOffsets": "216,285"
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,112,176,346",
+                        "endLines": "2,3,8,12",
+                        "endColumns": "56,63,24,24",
+                        "endOffsets": "107,171,341,490"
                     },
                     "to": {
-                        "startLines": "635,636",
-                        "startColumns": "4,4",
-                        "startOffsets": "40488,40552",
-                        "endColumns": "63,68",
-                        "endOffsets": "40547,40616"
+                        "startLines": "573,615,5868,5873",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "37179,39238,376940,377110",
+                        "endLines": "573,615,5872,5876",
+                        "endColumns": "56,63,24,24",
+                        "endOffsets": "37231,39297,377105,377254"
                     }
                 },
                 {
@@ -114,7 +97,7 @@
                     }
                 },
                 {
-                    "source": "/Users/apple/Desktop/OBTECH/react_learn/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/apple/Desktop/OBTECH/First-React-Native-App/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -168,23 +151,6 @@
                         "endLines": "24,4353,5608,5697",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "1334,293016,361816,367027"
-                    }
-                },
-                {
-                    "source": "/Users/apple/Desktop/OBTECH/react_learn/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "48",
-                        "endOffsets": "60"
-                    },
-                    "to": {
-                        "startLines": "671",
-                        "startColumns": "4",
-                        "startOffsets": "43007",
-                        "endColumns": "48",
-                        "endOffsets": "43051"
                     }
                 },
                 {
@@ -283,6 +249,23 @@
                     }
                 },
                 {
+                    "source": "/Users/apple/Desktop/OBTECH/First-React-Native-App/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
+                    "from": {
+                        "startLines": "6,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "157,221",
+                        "endColumns": "63,68",
+                        "endOffsets": "216,285"
+                    },
+                    "to": {
+                        "startLines": "635,636",
+                        "startColumns": "4,4",
+                        "startOffsets": "40488,40552",
+                        "endColumns": "63,68",
+                        "endOffsets": "40547,40616"
+                    }
+                },
+                {
                     "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/820068d4be612586a05a9daff9be7b77/transition-1.2.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -297,6 +280,23 @@
                         "startOffsets": "37236,37276,37669,37851,37906,38790,38844,38896,38945,39006",
                         "endColumns": "39,46,42,54,46,53,51,48,60,49",
                         "endOffsets": "37271,37318,37707,37901,37948,38839,38891,38940,39001,39051"
+                    }
+                },
+                {
+                    "source": "/Users/apple/Desktop/OBTECH/First-React-Native-App/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "48",
+                        "endOffsets": "60"
+                    },
+                    "to": {
+                        "startLines": "671",
+                        "startColumns": "4",
+                        "startOffsets": "43007",
+                        "endColumns": "48",
+                        "endOffsets": "43051"
                     }
                 }
             ]
