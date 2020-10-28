@@ -2,8 +2,8 @@ import { createSwitchNavigator,createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 import { createBottomTabNavigator } from "react-navigation-tabs";
 import login from "../pages/auth/login";
-import home from "../pages/home";
-import profile from '../pages/profile';
+import home from "../pages/Home";
+import profile from '../pages/Profile';
 
 const loginStack = createStackNavigator({
     Login: login,
