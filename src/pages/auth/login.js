@@ -2,12 +2,15 @@
 
 import React,{Component} from 'react';
 import styles from "../../styles/auth-style";
-import {Keyboard, KeyboardAvoidingView, SafeAreaView, Text, TextInput,TouchableOpacity, TouchableWithoutFeedback,View} from "react-native";
-
+import {Keyboard, KeyboardAvoidingView, 
+    SafeAreaView, Text, TextInput,TouchableOpacity, 
+    TouchableWithoutFeedback,View} from "react-native";
+ 
 
 export default class Login extends Component {
      
 myFunction(){
+
   this.props.navigation.navigate('app')
 }
   render() {
