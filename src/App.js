@@ -13,9 +13,9 @@ export default class App extends Component{
   componentDidMount(){
     SplashScreen.hide();
   }
+  
   render(){
     return  <AppContainer />
-            
-    
+              
   }
 }

@@ -10,6 +10,7 @@ import {Keyboard, KeyboardAvoidingView,
 export default class Login extends Component {
      
 myFunction(){
+
   this.props.navigation.navigate('app')
 }
   render() {
